@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Operadores Lógicos</title>
+
+    <script>
+        /*
+        //if(2== '2')
+        if (true) {
+            document.write('Bloco IF(verdadeiro)')
+        } else {
+            document.write('Bloco Else (falso)')
+        }
+        */
+
+        /*
+        var nota = 5
+        var media = 6
+        if (nota >= media) {
+            document.write('(Aprovado)')
+        } else {
+            document.write('(Reprovado)')
+        }
+        */
+
+        var nota = prompt("Digite a nota do aluno: ");
+        var faltas = prompt("Digite quantas faltas ele teve: ");
+
+        var media = 6;
+        var faltasMax = 15;
+
+        //Operar Lógico E &&
+        //Operador lógico OU || 
+        //Operador lógico NEGAÇÃO ! "Inverte o resultado"
+
+
+        if(nota >= media && faltas <= faltasMax){
+            document.write("Parabéns só beber!");
+        } else{
+            document.write("Já era tente outro ano!!");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
